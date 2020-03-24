@@ -64,6 +64,8 @@ import {
             }
         };
 
+        setContent(textField.value);
+        setContent(enumField.value);
         textField.on('keyup', _ => setContent(textField.value));
         enumField.on('change', _ => setContent(enumField.value));
 
